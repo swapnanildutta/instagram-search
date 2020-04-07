@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ig_data-swapnanildutta",
-    version="0.0.1",
+    name="ig_data",
+    version="0.0.2",
     author="Swapnanil Dutta",
     author_email="swapnanildutta2000@gmail.com",
     description="A small package to extract instagram data for the given username",
