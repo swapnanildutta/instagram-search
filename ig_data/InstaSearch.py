@@ -10,7 +10,7 @@ def searchDisplay(username):
         req = requests.get(url).content
         soup=BeautifulSoup(req,"html.parser")
         row=soup.find_all('script')
-        details=row[3].text
+        details=str(row[3]).strip("<script type=></")[22:].strip()
         account=json.loads(details)
         try:
             if len(account['description'])<1:
