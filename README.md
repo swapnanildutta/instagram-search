@@ -7,7 +7,7 @@ For running this you need to have Python3 installed.
 
 Then, run the command 
 
->***pip install -r requirements.txt
+>***pip install -r requirements.txt***
 
 
 This will instantly install all the libraies needed.
