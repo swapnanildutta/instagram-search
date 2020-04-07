@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ig_data",
+    name="ig-data",
     version="0.0.2",
     author="Swapnanil Dutta",
     author_email="swapnanildutta2000@gmail.com",
@@ -12,7 +12,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/swapnanildutta/instagram-search",
-    download_url="ig_data-swapnanildutta-0.0.1.tar.gz",
     packages=setuptools.find_packages(),
     install_requires=[
         'beautifulsoup4',
