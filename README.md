@@ -27,7 +27,7 @@ Then using the object, call the function searchDisplay()
 
 And the output would be
 
-'''
+'''bash
 Name :  *NAME*          Username :  @*USERNAME*     Followers :  *FOLLOWER COUNT*
  Bio :  *ACCOUNT DESCRIPTION*
 '''
