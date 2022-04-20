@@ -4,5 +4,5 @@
 #### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
 
 
-beautifulsoup4==4.10.0
+beautifulsoup4==4.11.1
 requests==2.27.1
